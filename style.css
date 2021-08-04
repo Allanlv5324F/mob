@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: lightblue;
+}
+label{
+    font-size: 23px;
+}
+
+.comparison_div{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px grey;
+    border : solid black 5px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.lol{
+    background-color: white;
+    color: black;
+    border : solid black 5px;
+    border-radius: 20px;
+    box-shadow: mintcream 5px 5px 5px;
+}

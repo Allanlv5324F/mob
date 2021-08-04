@@ -1,0 +1,165 @@
+<html>
+<head>
+  <title>Google Lens VS MoblieNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+</head>
+
+<body>
+  <br>
+  <label>Comparison Between Google Lens & MoblieNet</label>
+  <hr>
+      <div> 
+          <button class="btn btn-primary">Google Lens</button>
+          <label>VS</label>
+          <button class="btn btn-primary">MoblieNet</button>
+      </div>
+      <br><br>
+      <div class="comparison_div">
+        <center>
+          <label>Test 1 : </label>
+          <br>
+          <img src="bottle.jfif">
+          <br><br>
+          <button class="btn btn-primary">Output On Google Lens : <hr> Wooden Bottle</button>
+          <button class="btn btn-primary">Output On MobileNet : <hr>Bottle</button>
+          <br>
+          <span></span>
+          <span></span>
+          <div class="mini_result" class="col-xs-12">
+           <h4>Result - <span style="color: purple;">GOOGLE </span>is more accurate</h4>
+          </div>
+        </center>
+        </div> 
+        <br>
+        <div class="comparison_div">
+          <center>
+            <label>Test 2 : </label>
+            <br>
+            <img src="clock.jfif">
+            <br><br>
+            <button class="btn btn-primary">Output On Google Lens :<hr>Alarm Set</button>
+            <button class="btn btn-primary">Output On MobileNet :<hr>Clock</button>
+            <br>
+            <div class="mini_result" class="col-xs-12">
+              <h4>Result - <span style="color: purple;">GOOGLE </span>is more accurate</h4>
+            </div>
+          </center>
+          </div> 
+          <br>
+
+          <div class="comparison_div">
+            <center>
+              <label>Test 3 : </label>
+              <br>
+              <img src="glass.jfif">
+              <br><br>
+              <button class="btn btn-primary">Output On Google Lens :<hr>Glass</button>
+              <button class="btn btn-primary">Output On MobileNet :<hr>Glass Bottle</button>
+              <br>
+              <div class="mini_result" class="col-xs-12">
+                <h4>Result - <span style="color: purple;">GOOGLE </span>is more accurate</h4>
+              </div>
+            </center>
+            </div>
+            <br>
+
+            <div class="comparison_div">
+              <center>
+                <label>Test 4 : </label>
+                <br>
+                <img src="globe.jfif">
+                <br><br>
+                <button class="btn btn-primary">Output On Google Lens :<hr>Asia</button>
+                <button class="btn btn-primary">Output On MobileNet :<hr>Globe</button>
+                <br>
+                <div class="mini_result" class="col-xs-12">
+                  <h4>Result - <span style="color: purple;">GOOGLE </span>is more accurate</h4>
+                </div>
+              </center>
+              </div> 
+              <br>
+
+              <div class="comparison_div">
+                <center>
+                  <label>Test 5 : </label>
+                  <br>
+                  <img src="iphone.jfif">
+                  <br><br>
+                  <button class="btn btn-primary">Output On Google Lens :<hr>iPhone X</button>
+                  <button class="btn btn-primary">Output On MobileNet :<hr>Phone</button>
+                  <br>
+                  <div class="mini_result" class="col-xs-12">
+                    <h4>Result - <span style="color: purple;">GOOGLE </span>is more accurate</h4>
+                  </div>
+                </center>
+                </div> 
+                <br>
+
+                <div class="comparison_div">
+                  <center>
+                    <label>Test 6 : </label>
+                    <br>
+                    <img src="pen.jfif">
+                    <br><br>
+                    <button class="btn btn-primary">Output On Google Lens :<hr>Pen</button>
+                    <button class="btn btn-primary">Output On MobileNet :<hr>Ink Pen</button>
+                    <br>
+                    <div class="mini_result" class="col-xs-12">
+                      <h4>Result - <span style="color: purple;">MOBILENET </span>is more accurate</h4>
+                    </div>
+                  </center>
+                  </div> 
+                  <br>
+
+                  <div class="comparison_div">
+                    <center>
+                      <label>Test 7 : </label>
+                      <br>
+                      <img src="pillow.jfif">
+                      <br><br>
+                      <button class="btn btn-primary">Output On Google Lens :<hr>Blanket</button>
+                      <button class="btn btn-primary">Output On MobileNet :<hr>Pillow</button>
+                      <br>
+                      <div class="mini_result" class="col-xs-12">
+                        <h4>Result - <span style="color: purple;">MOBLIENET </span>is more accurate</h4>
+                      </div>
+                    </center>
+                    </div> 
+                    <br>
+
+                    <div class="comparison_div">
+                      <center>
+                        <label>Test 8 : </label>
+                        <br>
+                        <img src="watch.jfif">
+                        <br><br>
+                        <button class="btn btn-primary">Output On Google Lens : <hr>Smart Watch</button>
+                        <button class="btn btn-primary">Output On MobileNet :<hr>Watch</button>
+                        <br>
+                        <div class="mini_result" class="col-xs-12">
+                          <h4>Result - <span style="color: purple;">MOBLIENET </span>is more accurate</h4>
+                        </div>
+                      </center>
+                      </div> 
+                      <br>
+
+                        <br>
+                        <div class="lol">
+                          <h2>I have tested 8 images</h2>
+                          <div>
+                            <h3><span style="color: purple;">GOOGLE LENS</span>
+                            have predicted 5 out of 8 more accurate than <span style="color: purple;">MOBLIENET</span>
+                            <br>
+                            <h3>So according to my case study <span style="color: purple;">GOOGLE LENS </span>is more Accurate</h3>
+                            </h3>
+                          </div>
+                        </div>
+</body>
+<script src="main.js"></script>
+</html>
